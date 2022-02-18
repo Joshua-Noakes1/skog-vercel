@@ -1,0 +1,11 @@
+{
+    "regions": [
+        "lhr1"
+    ],
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "https://github.com/joshua-noakes1/skog-vercel"
+        }
+    ]
+}
