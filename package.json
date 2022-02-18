@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "vercel --prod -C",
-    "dev": "vercel dev"
+    "runDev": "vercel dev"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/joshua-noakes1/skog-vercel/issues"
   },
-  "homepage": "https://github.com/joshua-noakes1/skog-vercel#readme"
+  "homepage": "https://github.com/joshua-noakes1/skog-vercel#readme",
+  "dependencies": {
+    "ikea-availability-checker": "^1.1.0"
+  }
 }
