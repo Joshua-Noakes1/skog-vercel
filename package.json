@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "vercel --prod -C",
-    "runDev": "vercel dev"
+    "test": "vercel dev"
   },
   "repository": {
     "type": "git",
