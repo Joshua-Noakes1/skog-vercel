@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
 
         // return stock data
         return res.status(200).json({
-            success: ikeaStore.success,
+            success: ikeaStock.success,
             store: ikeaStore.store,
             stock: ikeaStock.stock
         });
