@@ -5,8 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "vercel --prod -C",
-    "test": "vercel dev"
+    "publish": "vercel --prod -C"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/joshua-noakes1/skog-vercel#readme",
   "dependencies": {
     "ikea-availability-checker": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.13.0"
   }
 }
