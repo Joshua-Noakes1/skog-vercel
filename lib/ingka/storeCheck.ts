@@ -1,9 +1,9 @@
 // check if a buCode exists within country
-const ingka = require('ikea-availability-checker');
+import ingka from 'ikea-availability-checker';
 
-async function storeCheck(buCode) {
+export default async function storeCheck(buCode) {
     try {
-        const store = await ingka.stores.findById(`${buCode}`); // ask ikea api for store
+        const store = await ingka.stores.findById(buCode); // ask ikea api for store
         if (store.length > 0) { // return store if found
             return {
                 success: true,
@@ -20,5 +20,3 @@ async function storeCheck(buCode) {
         };
     }
 }
-
-module.exports = storeCheck;
