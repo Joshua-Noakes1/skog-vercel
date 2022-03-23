@@ -21,6 +21,6 @@
     "ikea-availability-checker": "^1.1.1"
   },
   "devDependencies": {
-    "@vercel/node": "^1.13.0"
+    "@vercel/node": "^1.14.0"
   }
 }
