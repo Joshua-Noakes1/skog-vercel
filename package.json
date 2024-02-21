@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/joshua-noakes1/skog-vercel#readme",
   "dependencies": {
-    "ikea-availability-checker": "^1.1.2"
+    "ikea-availability-checker": "^2.0.2"
   },
   "devDependencies": {
     "@vercel/node": "^1.14.0"
